@@ -1,0 +1,73 @@
+# =========================
+# Secrets / env files
+# =========================
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# uni-app / build outputs
+dist/
+unpackage/
+
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# =========================
+# Project-specific generated artifacts (from your current commit)
+# =========================
+generated_zips/
+
+student_certificate_sample.pdf
+student_certificate_sample.png
+template_with_grid.png
+
+# test/import files
+test_awards.xlsx
+test_match_no.xlsx
+*.xlsx
+
+# accidental/unknown file committed once
+2.1.0

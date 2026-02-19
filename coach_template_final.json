@@ -1,0 +1,41 @@
+{
+  "name": "教师版-一等奖",
+  "category": "无人机足球",
+  "award_level": "一等奖-辅导员",
+  "config": {
+    "background_image": "assets/cert/coach.png",
+    "global_y_offset": -6,
+    "debug_points": false,
+    "debug_canvas_grid": null,
+    "texts": [
+      {
+        "field": "contact_name",
+        "wrap": true,
+        "direction": "up",
+        "max_lines": 2,
+
+        "x": 52.96,
+        "y": 127.67,
+        "width": 24.69,
+
+        "x_anchor": "left",
+        "align": "center",
+        "y_offset": 6.5,
+
+        "font": "宋体",
+        "font_size": 16,
+        "line_height": 18
+      },
+      {
+        "text": "优秀辅导员",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "x_anchor": "left",
+        "align": "left",
+        "font": "宋体",
+        "font_size": 12
+      }
+    ]
+  }
+}

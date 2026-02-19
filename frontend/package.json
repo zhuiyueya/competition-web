@@ -1,0 +1,9 @@
+{
+  "name": "competition-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uni-app frontend (HBuilderX project)",
+  "scripts": {
+    "install:noop": "node -e \"console.log('This project is intended to be run via HBuilderX.');\""
+  }
+}

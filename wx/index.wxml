@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="header">青少年无人机大赛报名</view>
+
+  <form bindsubmit="submitRegistration">
+    <view class="section-title">项目信息</view>
+    <picker mode="multiSelector" bindchange="onCompChange" bindcolumnchange="onColumnChange" range="{{multiArray}}" range-key="name">
+      <view class="picker-box">选择项目：{{selectedCategory}} - {{selectedTask}}</view>
+    </picker>
+
+    <picker bindchange="onLevelChange" range="{{levelList}}">
+      <view class="picker-box">学段：{{selectedLevel || '点击选择学段'}}</view>
+    </picker>
+
+    <view class="section-title">学校与联系人</view>
+    <input class="input-cell" name="school_name" placeholder="学校全称" />
+    <input class="input-cell" name="contact_name" placeholder="指导老师姓名" />
+    <input class="input-cell" name="contact_phone" type="number" maxlength="11" placeholder="联系手机号" />
+    <input class="input-cell" name="contact_email" placeholder="联系邮箱" />
+
+    <view class="section-title">选手信息 (需 {{neededCount}} 人)</view>
+    <block wx:for="{{neededCount}}" wx:key="index">
+      <input class="input-cell" 
+             placeholder="选手 {{index + 1}} 姓名" 
+             bindinput="onPlayerInput" 
+             data-index="{{index}}" />
+    </block>
+
+    <button class="submit-btn" form-type="submit" type="primary">提交报名</button>
+  </form>
+</view>

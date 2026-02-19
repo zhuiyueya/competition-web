@@ -1,0 +1,31 @@
+/* 
+  UI RECOVERY BACKUP - ORIGINAL STYLES 
+  Date: 2026-02-19
+  This file contains the original styles of the main pages for easy restoration.
+*/
+
+/* App.vue Original */
+/* Empty */
+
+/* index.vue Original Style (Lines 141-264) */
+.index-original {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.index-header-original {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  color: white;
+}
+/* ... rest of original index styles captured in memory ... */
+
+/* admin-login.vue Original Style (Lines 96-162) */
+.admin-login-original-card {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  border-radius: 12px;
+}

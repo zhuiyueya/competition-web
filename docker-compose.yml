@@ -1,0 +1,22 @@
+services:
+  web:
+    build: .
+    container_name: competition-web
+    ports:
+      - "5000:5000"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - SECRET_KEY=${SECRET_KEY}
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY}
+      - OLD_ENCRYPTION_KEYS=${OLD_ENCRYPTION_KEYS}
+      - WX_APPID=${WX_APPID}
+      - WX_SECRET=${WX_SECRET}
+      - GUNICORN_WORKERS=${GUNICORN_WORKERS}
+    restart: unless-stopped
+    networks:
+      - backend
+
+networks:
+  backend:
+    external: true
+    name: ${DOCKER_NETWORK}
