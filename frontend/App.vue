@@ -4,7 +4,7 @@ export default {
     try {
       const cur = String(uni.getStorageSync('base_url') || '').trim()
       if (!cur) {
-        uni.setStorageSync('base_url', 'http://127.0.0.1:5001')
+        uni.setStorageSync('base_url', 'https://drone-race.starweave.net')
       }
     } catch (e) {}
   },

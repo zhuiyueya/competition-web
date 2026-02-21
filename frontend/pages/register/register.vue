@@ -541,7 +541,7 @@ export default {
           }
 
           const askSubscribeOnce = async () => {
-            const tmplId = 'MLzBV8JrWuRq9GkSzFpn0QNqQ-QodN_QQR9MCaMk7M8'
+            const tmplId = 'a1s7ioFW5JEliylSx1hGJSd35x01NrKTFadK54XnuHY'
             return await new Promise((resolve) => {
               try {
                 uni.showModal({

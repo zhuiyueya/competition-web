@@ -71,3 +71,5 @@ test_match_no.xlsx
 
 # accidental/unknown file committed once
 2.1.0
+
+*.pdf
