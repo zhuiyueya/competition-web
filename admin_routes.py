@@ -610,7 +610,7 @@ def admin_approve_application(application_id):
 
         subscribe = _wx_send_audit_subscribe(
             getattr(application, 'openid', None),
-            '已通过',
+            '报名成功',
             getattr(application, 'reviewed_at', None),
             '审核通过',
             'pages/application-query/application-query'
@@ -656,7 +656,7 @@ def admin_reject_application(application_id):
         notify = _send_reject_notification_mail(application, reason)
         subscribe = _wx_send_audit_subscribe(
             getattr(application, 'openid', None),
-            '已退回',
+            '审核未通过',
             getattr(application, 'reviewed_at', None),
             reason,
             'pages/application-query/application-query'

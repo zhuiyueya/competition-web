@@ -1,7 +1,7 @@
 <template>
   <view class="register-container">
     <view class="header">
-      <text class="title">竞赛报名系统</text>
+      <text class="title">十堰市第二届青少年无人机大赛</text>
     </view>
     
     <form @submit="handleSubmit">

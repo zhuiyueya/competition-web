@@ -3,7 +3,7 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "竞赛报名系统"
+        "navigationBarTitleText": "十堰市第二届青少年无人机大赛"
       }
     },
     {
@@ -93,7 +93,7 @@
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "竞赛报名系统",
+    "navigationBarTitleText": "十堰市第二届青少年无人机大赛",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },

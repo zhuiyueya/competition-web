@@ -2,7 +2,7 @@
   <view class="container">
     <view class="header">
       <image class="logo" src="/static/logo.png" mode="aspectFit"></image>
-      <text class="title" @click="handleTitleTap">竞赛报名系统</text>
+      <text class="title" @click="handleTitleTap">十堰市第二届青少年无人机大赛</text>
       <text class="subtitle">在线报名，便捷高效</text>
     </view>
     
